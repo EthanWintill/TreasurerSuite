@@ -3,7 +3,7 @@ import numpy as np
 import gspread
 from datetime import datetime
 
-gc = gspread.service_account('/Users/mymac/Downloads/Career-Stuff/Projects/TreasurerSuite/TreasurerSuite/SheetKey/key.json')
+gc = gspread.service_account('/Users/mymac/Desktop/Career-Stuff/Projects/TreasurerSuite/TreasurerSuite/SheetKey/key.json')
 sh = gc.open("S23Dues")
 rows = sh.sheet1.get_all_values()
 dues = pd.DataFrame(rows)
