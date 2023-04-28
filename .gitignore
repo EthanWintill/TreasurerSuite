@@ -1,0 +1,16 @@
+# Ignore all files with the .pyc extension
+*.pyc
+
+# Ignore the virtual environment folder
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore secret keys and passwords
+SheetKey
+.env
+
+.DS_Store
+
+client_secret_846429347071-lk4teplaksi0isgoou97380cf8fioef9.apps.googleusercontent.com.json

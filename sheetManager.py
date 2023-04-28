@@ -29,3 +29,12 @@ def fine(first: str, last: str, amount: int):
     if(currentFine != ''):
         amount += float(currentFine)
     sh.sheet1.update_cell(row=brotherRow, col=5,value = amount)
+
+
+def printList():
+    list = getOutstanding()
+    for entry in list:
+        print(f'{entry[0]} {entry[1]} {entry[2]}')
+
+
+printList()
